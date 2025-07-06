@@ -49,3 +49,26 @@ button {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.navbar {
+    padding: .6em 1em;
+}
+
+.navbar>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar>ul>li>a {
+    display: block;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    color: #444;
+}
+
+.navbar>ul>li>a:hover {
+    background-color: #eee;
+    border: 1px solid #999;
+}
